@@ -8,6 +8,7 @@ The following cloud services are supported:
 - NextCloud/OwnCloud
 - pCloud
 - Box
+- FileBrowser
 
 ## <a name="installation"></a>Installation
 
@@ -97,6 +98,11 @@ Due to a different download method for pCloud (new share links have a different 
 - Copy-paste the link in the kobocloudrc file
 
 Please note that, even though the script supports folders where the file list has multiple pages, having a list with many pages might not work.
+
+### FileBrowser
+
+- Share a folder in FileBrowser and copy the public link
+- Add that link to your `kobocloudrc` file
 
 ### Matching remote server
 To delete files from library when they are no longer in the remote server:

@@ -19,6 +19,9 @@ then
 elif [ "$SERVICE" = "box" ]
 then
     URL='https://app.box.com/s/1y5e82xbyksuywamih7vu08yaiefqm65'
+elif [ "$SERVICE" = "filebrowser" ]
+then
+    URL='https://demo.filebrowser.org/share/3c4c1b9a-7238-4e5c-bacd-1df01234abcd'
 elif [ "$SERVICE" = "nextcloud" ]
 then
     ##URL: domain.com/
